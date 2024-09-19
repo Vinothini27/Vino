@@ -1,0 +1,300 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="icon" href="./Images/logo.png">
+    <link rel="stylesheet" href="style.html">
+    <script defer src="script.js"></script>
+
+    <style>
+        body{
+            transition: all 1.5s ease;
+        }
+    </style>
+    
+    </head>
+    
+    
+    
+    <body>
+        <div class="container">
+        <div class="page1" id="page1">
+            <header>
+                <nav>
+                    <img src="./Images/logo.png" alt="logo">
+                    <h1>Thiya Book Store</h1>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#page1">Home</a></li>
+                            <li><a href="#page3">Books</a></li>
+                            <li><a href="#page4">Authors</a></li>
+                            <li><a href="#page5">Contact</a></li>
+                            <li><a href="#page6">Login</a></li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+    
+
+
+
+            </header>
+            <div class="content1">
+                <h4>Welcome To Our Book Store</h4>
+                <h1>For All Your Reading Needs</h1>
+            </div>
+             <div class="content2">
+                <h1>The Bookshelf</h1>
+                <h4>Explore,Discover,and Buy Your Favorite Books</h4><br><br>
+                <a href="#page2">Discover More
+                </a>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="page2" id="page2">
+            <div class="box">
+                <h1>Our Books</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facilis.
+                </p>
+                <div class="box1">
+
+                </div>
+                <div class="box2">
+
+                </div>
+                <div class="box3">
+ 
+                 </div>
+            </div>
+        </div>
+        <div class="page3" id="page3">
+            <h1>Now Trending</h1>
+            <div class="box box1">
+                <img src="./Images/book1.jpg" alt="Book">
+                <h3>Look Back</h3>
+                <h6>Tatsuki Fujimo</h6>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>₹1260</p>
+            </div>
+            <div class="box box2">
+                <img src="./Images/book2.jpg" alt="Book">
+                <h3>Jujutsu Kaisen 0</h3>
+                <h6>Gege Akutami</h6>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>₹1500</p>
+            </div>          
+            <div class="box box3">
+                <img src="./Images/book3.jpg" alt="Book">
+                <h3>White Nights</h3>
+                <h6>Ronald Meyer</h6>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>₹125</p>
+            </div>
+            <div class="box box4">
+                <img src="./Images/book4.jpg" alt="Book">
+                <h3>11 Rules For Life</h3>
+                <h6>Chetan Bhagat</h6>
+                <p>⭐⭐⭐⭐⭐</p>
+                <p>₹250</p>
+            </div>
+        </div>
+        <div class="page4" id="page4">
+            <h1>Authors</h1>
+            <div class="box box1">
+                <img src="./Images/a1.jpg" alt="Authors">
+                <h3>Gillian  Flynn</h3>
+                <p>She is an American author, screenwriter, comic book writer and former television critic for Entertainment Weekly.</p>
+            </div>
+            <div class="box box2">
+                <img src="./Images/a2.jpg" alt="Authors">
+                <h3>Arundhati Roy</h3>
+                <p>Arundhati Roy is an Indian writer, best known for her book The God of Small Things (1997)</p>
+            </div>
+            <div class="box box3">
+                <img src="./Images/a3.jpg" alt="Authors">
+                <h3>Williom Wordsworth</h3>
+                <p>On April 7, 1770, William Wordsworth was conceived in Cockermouth, Cumbria, England.</p>
+            </div>
+            <div class="box box4">
+                <img src="./Images/a4.jpg" alt="Authors">
+                <h3>John Green</h3>
+                <p>He is an American author, vlogger, writer, producer, actor and editor.</p>
+            </div>
+
+
+            <!-- <div class="main">
+                Generate color:<input type="color" id="controlpanel">
+                <button onclick="mycolor()">Get color</button>
+                <input type="text" id="box" readonly>
+            </div> -->
+
+            <!-- <select onchange="color(this.value)">
+                <option value="blue">blue</option>
+                <option value="Green">Green</option>
+                <option value="Red">Red</option>
+                <option value="Pink">Pink</option>
+                <option value="Black">Black</option>
+                <option value="white">White</option>
+            </select> -->
+            
+            <script>
+                function mycolor() {
+                    
+                    var color = document.getElementById('controlpanel').value;
+            
+                    document.body.style.backgroundColor = color;
+                    document.getElementById('box').value = color;
+                }
+                // function color(value) {
+                //     document.body.style.backgroundcolor.value;
+                // }
+            
+            </script>
+            
+
+
+
+        </div>
+        <div class="container"></div>
+        <div class="page5" id="page5">
+            <form action="" id="form">
+                <h1>Contact Us</h1>
+                <div class="input-group">
+                    <label for="username">username:</label>
+                    <input type="text" id="username" id="your name">
+                    <div class="error">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">email:</label>
+                        <input type="text" id="email" id="your email">
+                        <div class="error">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="Password">Password:</label>
+                            <input type="Password" id="Password" name="Password">
+                            <div class="error">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="CPassword">Confirm Password:</label>
+                                <input type="Password" id="CPassword" name="CPassword">
+                                <div class="error">
+                                </div>
+                                <button class="Register" onclick="func()">
+                                    REGISTER
+                                </button>
+                                </div>
+                                
+                            </div>
+                        </form>
+                   <div class="container">
+                    <div class="page6" id="page6">
+                        <form action="" id="form">
+                            <h1>Login</h1><br><br>
+                            <div class="login-form">
+                                <h4>username</h4>
+                                <div class="username-input">
+                                    <i class="fas fa-user"></i>
+                                    <input type="email" placeholder="enter your email" id="username">
+                                </div>
+                                <h4>Password</h4>
+                                <div class="Password-input">
+                                    <i class="fas fa-lock"></i>
+                                    <input type="password" placeholder="type your password">
+
+                                </div>
+                                <p class="p">forget password</p><br>
+                            </div>
+                            <button class="login-btn" onclick="func()">
+                                LOGIN
+                            </button>
+                            <div class="alternative-signup">
+                                <p>not a member?<span>sign-up</span></p>
+                                
+                            </div>
+                    
+                        
+                         
+                    </form>
+
+                    <div class="main">
+                        Generate color:<input type="color" id="controlpanel">
+                        <button onclick="mycolor()">Get color</button>
+                        <input type="text" id="box" readonly>
+                    </div>
+
+                    <script>
+                        function mycolor() {
+                            
+                            var color = document.getElementById('controlpanel').value;
+                    
+                            document.body.style.backgroundColor = color;
+                            document.getElementById('box').value = color;
+                        }
+                        // function color(value) {
+                        //     document.body.style.backgroundcolor.value;
+                        // }
+                    
+                    </script>
+
+
+
+
+
+
+
+
+
+                    <script>
+                        function func(){
+                            var email=document.getElementById("username").value;
+                            var pass=document.getElementById("password").value;
+                             
+                            if(email=='vino1234@gmail.com' && pass=='12345'){
+                                alert("login successfully!")
+
+                                window.location.assign("home.html")
+                            }
+                            else{
+                                alert("Please enter valid email")
+                            }
+                        }
+                    </script>
+
+
+                  
+                  
+
+
+                    
+ 
+                           
+
+                <script src="script.js"></script>
+
+            </form>
+            </div>
+    
+    
+        
+    </div>
+
+
+
+
+
+
+    
+
+</body>
+</html> 
